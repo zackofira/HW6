@@ -127,7 +127,7 @@ public class ProblemSolutions {
         //temp string for swapping
         String temp = "";
 
-        //reverse bubble sort because n is small, so it works fine.  Based on alphabetical sorting
+        //bubble sort because n is small, so it works fine.  Based on alphabetical sorting
         for (int i = 0; i < input.size() - 1; i++) {
             for (int j = 0; j < input.size() - i - 1; j++) {
                 if (input.get(j).compareTo(input.get(j + 1)) > 0) {
